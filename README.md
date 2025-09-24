@@ -33,7 +33,7 @@ agentic_rag_project/
 ## Használat
 
 **Általam használt Local LLM:**
-(https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/blob/main/mistral-7b-instruct-v0.2.Q4_K_M.gguf)
+- https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/blob/main/mistral-7b-instruct-v0.2.Q4_K_M.gguf
 
 1. **Modellek és adatok előkészítése**
    - Tedd a feldolgozni kívánt PDF-eket a `./data/pdfs/` mappába.
