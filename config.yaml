@@ -1,0 +1,19 @@
+seed: 42
+data:
+  pdf_dir: ./data/pdfs
+  pdf_glob: '*.pdf'
+chunking:
+  chunk_size: 800
+  chunk_overlap: 150
+retrieval:
+  top_k: 12
+  rerank_top_k: 4
+models:
+  gguf_model_path: ./models/mistral-7b-instruct-v0.2.Q4_K_M.gguf
+  n_ctx: 4096
+  n_threads: 4
+  temperature: 0.2
+  top_p: 0.9
+paths:
+  index_dir: ./index
+  data_dir: ./data
