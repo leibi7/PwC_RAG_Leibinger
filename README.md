@@ -25,15 +25,19 @@ agentic_rag_project/
   data/
     pdfs/                       <-- ide kerülnek a PDF-ek (Example pdf már benne)
   index/                        <-- FAISS index (futás közben generálódik)
-  models/                       <-- itt van a GUFF modell (Cserélhető, de át kell írni a config.yaml-ben a modell nevét)
+  models/                       <-- ide tedd a GGUF modellt (Bármilyen Local LLM használható)
 ```
 
 ---
 
 ## Használat
 
+**Általam használt Local LLM:**
+(https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/blob/main/mistral-7b-instruct-v0.2.Q4_K_M.gguf)
+
 1. **Modellek és adatok előkészítése**
    - Tedd a feldolgozni kívánt PDF-eket a `./data/pdfs/` mappába.
+   - Tedd a használni kívánt modellt a `./models/` mappába, majd írd át a config.yaml fájlban a modell nevét
 
 2. **Környezet létrehozása és telepítés**
    ```bash
@@ -43,7 +47,7 @@ agentic_rag_project/
    ```
 
 3. **Notebook futtatása**
-   Nyisd meg az `agentic_rag_refined.ipynb` fájlt, és futtasd a cellákat.
+   - Nyisd meg az `agentic_rag_refined.ipynb` fájlt, és futtasd a cellákat.
 
 ---
 
