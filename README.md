@@ -18,7 +18,7 @@ A rendszer kizárólag helyi erőforrásokra épít: PDF dokumentumokból dolgoz
 ```
 agentic_rag_project/
   README.md
-  DOCUMENTATION.md
+  Leibinger_RAG_Dokumentacio.pdf
   requirements.txt
   config.yaml
   agentic_rag_refined.ipynb     <-- a fő notebook
